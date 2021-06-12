@@ -2,6 +2,10 @@
     display: none;
 }
 
+.link {
+    color: blue;
+}
+
 .header {
     position: sticky;
     top: 0px;
