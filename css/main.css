@@ -68,17 +68,17 @@
     padding: 9px 20px;
     border-radius: 2px;
     color: #FF6464;
-    /* background-image: linear-gradient(to left, transparent, transparent 50%, #FF6464 50%, #FF6464);
+    background-image: linear-gradient(to left, transparent, transparent 50%, #FF6464 50%, #FF6464);
     background-position: 100% 0;
     background-size: 210% 100%;
-    transition: all .25s ease-in; */
+    transition: all .25s ease-in;
     border: 1px solid #FF6464;
 }
 
-/* .download-button:hover {
+.download-button:hover {
     background-position: 0 0;
     color: #fff;
-} */
+}
 
 .main-image {
     position: relative;
