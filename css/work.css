@@ -1,0 +1,152 @@
+.works {
+    background-color: #FFFFFF;
+    padding-top: 90px;
+    padding-bottom: 58px;
+}
+
+.works-container {
+    max-width: 682px;
+    margin: 0 auto;
+}
+
+.works-container>h1 {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 25px;
+}
+
+.works-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.works-cards a {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.w-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    grid-gap: 18px;
+}
+
+.works-cards>a:first-of-type {
+    padding-top: 0px;
+}
+
+.w-card img {
+    width: 246px;
+    height: 180px;
+}
+
+.w-text h2 {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 12px;
+}
+
+.w-text>div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    grid-gap: 26px;
+    margin-bottom: 18px;
+}
+
+.w-text span {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    background: #142850;
+    border-radius: 16px;
+}
+
+.w-text-grey {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.w-text-discription {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+
+@media screen and (max-width: 735px) {
+    .works {
+        padding-top: 24px;
+        padding-bottom: 0px;
+    }
+    .works-container {
+        max-width: 344px;
+    }
+    .works-container>h1 {
+        margin-bottom: 13px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .works-cards {
+        align-items: center;
+    }
+    .works-cards a {
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+    .w-card {
+        flex-direction: column;
+        grid-gap: 17px;
+    }
+    .w-card img {
+        height: 230px;
+        width: 339px;
+    }
+    .w-text h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+    .w-text>div {
+        display: flex;
+        align-items: center;
+        grid-gap: 22px;
+        margin-bottom: 25px;
+    }
+    .w-text span {
+        font-size: 16px;
+    }
+    .w-text-grey {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .works-container {
+        max-width: 250px;
+    }
+    .w-card img {
+        height: 150px;
+        width: 250px;
+    }
+}

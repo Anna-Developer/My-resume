@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.chosen-link {
+    color: #FF6464;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.container {
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+.blog-container {
+    max-width: 682px;
+    margin: 0 auto;
+}
+
+.unchosen-link {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+    transition: .3s;
+}
+
+.unchosen-link:hover {
+    color: #FF6464;
+}
