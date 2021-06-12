@@ -68,17 +68,17 @@
     padding: 9px 20px;
     border-radius: 2px;
     color: #FF6464;
-    background-image: linear-gradient(to left, transparent, transparent 50%, #FF6464 50%, #FF6464);
+    /* background-image: linear-gradient(to left, transparent, transparent 50%, #FF6464 50%, #FF6464);
     background-position: 100% 0;
     background-size: 210% 100%;
-    transition: all .25s ease-in;
+    transition: all .25s ease-in; */
     border: 1px solid #FF6464;
 }
 
-.download-button:hover {
+/* .download-button:hover {
     background-position: 0 0;
     color: #fff;
-}
+} */
 
 .main-image {
     position: relative;
@@ -300,19 +300,7 @@
     color: #21243D;
 }
 
-@media screen and (max-width: 900px) {
-    .container {
-        max-width: 750px;
-    }
-    .main-title {
-        max-width: 450px;
-    }
-    .main-description {
-        max-width: 430px;
-    }
-}
-
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 915px) {
     .header-adaptive {
         height: 100vh;
         background-color: #FFFFFF;
@@ -341,6 +329,8 @@
     .main {
         padding-top: 33px;
         padding-bottom: 58px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     .main-content {
         flex-direction: column;
